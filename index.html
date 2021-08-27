@@ -8,6 +8,282 @@
     <title>Practice Field</title>
 </head>
 <body>
-    <h1>Practice Field</h1>
+    <h1 class="head">Practice Field</h1>
+    <code>
+    x = 5;
+    y = 6;
+    z = x + y;
+    </code>
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+    <p>Message from my computer:</p>
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+    <pre>
+    <code>
+    x = 5;
+    y = 6;
+    z = x + y;
+    </code>
+    </pre>
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the
+        vertical height.</p>
+    <article class="all-browsers">
+        <h1>Most Popular Browsers</h1>
+        <article class="browser">
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+                browser today!</p>
+        </article>
+        <article class="browser">
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular
+                web browser since January, 2018.</p>
+        </article>
+        <article class="browser">
+            <h2>Microsoft Edge</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet
+                Explorer.</p>
+        </article>
+    </article>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+    </nav>
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great
+        summer together with my family!</p>
+    
+    <aside>
+        <p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international
+            pavilions, award-winning fireworks and seasonal special events.</p>
+    </aside>
+    
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great
+        summer together with my family!</p>
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great
+        summer together with my family!</p>
+    <br><br><br>
+    <figure>
+        <img src="pic_trulli.jpg" alt="Trulli">
+        <figcaption>Fig1. - Trulli, Puglia, Italy</figcaption>
+    </figure>
+    <h1>The time element</h1>
+    
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+    
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+    
+    <p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p>
+
+    <p id="Demo">This is paragraph 1.</p>
+    <p id="demo">This is paragraph 2.</p>
+    <p id="rashu">amar naam rashu</p>
+    
+    <script>
+        // Only paragraph 2 will be overwritten
+        document.getElementById("demo").innerHTML = "HELLO.";
+        document.getElementById("rashu").innerHTML = "I'm Rashu";
+    </script>
+
+    <p>I will display A B C</p>
+    <p>I will display &#65; &#66; &#67; &#68; &#69; &#70; &#71;</p>
+    <br><br>
+    <h1>My First Emoji</h1>
+    
+    <p>&#128512;</p>
+    <h1>Sized Emojis</h1>
+    
+    <p style="font-size:48px">
+        &#128512; &#128516; &#128525; &#128151;
+    </p>
+    <br>
+
+    <h2>Text input fields</h2>
+
+    <form action="#">
+        <label for="first_name">First name:</label><br>
+        <input type="text" id="first_name" name="first_name" value="Rashu"><br>
+        <label for="last_name">Last name:</label><br>
+        <input type="text" id="last_name" name="last_name" value="Loser">
+    </form>
+
+    <p>Note that the form itself is not visible.</p>
+    
+    <p>Also note that the default width of text input fields is 20 characters.</p>
+
+    <h2>Checkboxes</h2>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+    
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    
+    <h3>The button Element</h3>
+
+    <button type="button" onclick="alert('Hey....! I am Rashu,  It is just for joke &#128512;')">Click here</button>
+    <br>
+
+    <form action="#">
+        <fieldset>
+            <legend>rashu</legend>
+            <input type="text"> <br>
+            <input type="text"> <br>
+            <input type="text"> <br>
+        </fieldset>
+    </form>
+
+    <br>
+    <h2>The datalist Element</h2>
+    
+    <p>The datalist element specifies a list of pre-defined options for an input element.</p>
+
+    <form action="#">
+        <input list="friends" name="friend">
+        <datalist id="friends">
+            <option value="Taohid">
+            <option value="Shrabon">
+            <option value="Istiak">
+            <option value="Nahid">
+            <option value="Shuvo">
+            <option value="Unknown">
+        </datalist>
+        <input type="submit">
+    </form>
+    <br>
+
+    <h1>Show a Time Input Control</h1>
+    
+    <p>The <strong>input type="time"</strong> allows the user to select a time (no time zone):</p>
+    
+    <p>If the browser supports it, a time picker pops up when entering the input field.</p>
+    
+    <form action="/action_page.php">
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <h1>Display a Week Input Control</h1>
+    
+    <p>The <strong>input type="week"</strong> allows the user to select a week and year.</p>
+    
+    <p>If the browser supports it, a date picker pops up when entering the input field.</p>
+    
+    <form action="/action_page.php">
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <h1>The input size attribute</h1>
+    
+    <p>The size attribute specifies the width (in characters) of an input field:</p>
+    
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" size="4"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <h1>The input min and max attributes</h1>
+    
+    <p>The min and max attributes specify the minimum and maximum values for an input element.</p>
+    
+    <form action="/action_page.php">
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+    
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+    
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+
+    <h1>The input step attribute</h1>
+    
+    <p>The step attribute specifies the legal number intervals for an input element.</p>
+    
+    <form action="/action_page.php">
+        <label for="points">Points:</label>
+        <input type="number" id="points" name="points" step="3">
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <br>
+    <svg width="400" height="100">
+        <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+    </svg>
+    <br>
+    <svg width="400" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+            style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    </svg>
+    <br>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+            style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+    </svg>
+    <br>
+    <svg height="130" width="500">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <br>
+    <video width="400" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML video.
+    </video>
+    
+    <p>
+        Video courtesy of
+        <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+    </p>
+    <video width="320" height="240" autoplay>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+
 </body>
 </html>
