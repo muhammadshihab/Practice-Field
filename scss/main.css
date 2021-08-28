@@ -58,13 +58,10 @@ h1.b {
 h1.c {
   font-family: "Trirong", serif;
 }
-
-font-family: "Sofia", sans-serif;
-  font-size: 30px;
-
-  h1.fire,
-  p.fire2,
-  p.fire3{
+ 
+h1.fire,
+ p.fire2,
+p.fire3{
     font-family: "Sofia", sans-serif;
     font-size: 30px;
-  }
+ }
